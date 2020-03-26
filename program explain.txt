@@ -1,0 +1,6 @@
+1. The pieces will be shown on the screen at initial position by Game->New from the top menu bar.
+2. The Game-> Save will generate the step.txt file that shows all step history.
+3. The Game-> load will reload the previous game that being saved.
+4. The program initialized a depth of 1. (Which can only do minimax because of the depth)
+5. Game->depth increase will increase the depth by 1 at each time.(from depth =2 it will perform alpha-beta pruning)
+6. Game->depth decrease will decrease the depth by 1 at each time
